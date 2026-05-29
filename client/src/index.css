@@ -43,74 +43,82 @@
 }
 
 :root {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-600);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --radius: 0.65rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.235 0.015 65);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.235 0.015 65);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.235 0.015 65);
-  --secondary: oklch(0.98 0.001 286.375);
-  --secondary-foreground: oklch(0.4 0.015 65);
-  --muted: oklch(0.967 0.001 286.375);
-  --muted-foreground: oklch(0.552 0.016 285.938);
-  --accent: oklch(0.967 0.001 286.375);
-  --accent-foreground: oklch(0.141 0.005 285.823);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.92 0.004 286.32);
-  --input: oklch(0.92 0.004 286.32);
-  --ring: oklch(0.623 0.214 259.815);
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.235 0.015 65);
-  --sidebar-accent: oklch(0.967 0.001 286.375);
-  --sidebar-accent-foreground: oklch(0.141 0.005 285.823);
-  --sidebar-border: oklch(0.92 0.004 286.32);
-  --sidebar-ring: oklch(0.623 0.214 259.815);
+  /* Premium Soft Luxury Palette */
+  --primary: oklch(0.85 0.08 25);
+  --primary-foreground: oklch(0.98 0.002 0);
+  --sidebar-primary: oklch(0.85 0.08 25);
+  --sidebar-primary-foreground: oklch(0.98 0.002 0);
+  --chart-1: oklch(0.85 0.08 25);
+  --chart-2: oklch(0.82 0.1 280);
+  --chart-3: oklch(0.75 0.12 150);
+  --chart-4: oklch(0.70 0.08 25);
+  --chart-5: oklch(0.65 0.1 280);
+  
+  --radius: 0.75rem;
+  
+  /* Warm ivory base with premium feel */
+  --background: oklch(0.98 0.003 65);
+  --foreground: oklch(0.25 0.02 65);
+  --card: oklch(0.99 0.001 0);
+  --card-foreground: oklch(0.25 0.02 65);
+  --popover: oklch(0.99 0.001 0);
+  --popover-foreground: oklch(0.25 0.02 65);
+  
+  /* Dusty pink and muted lavender accents */
+  --secondary: oklch(0.88 0.05 25);
+  --secondary-foreground: oklch(0.25 0.02 65);
+  --muted: oklch(0.92 0.02 280);
+  --muted-foreground: oklch(0.45 0.02 280);
+  --accent: oklch(0.85 0.08 25);
+  --accent-foreground: oklch(0.98 0.002 0);
+  
+  --destructive: oklch(0.65 0.2 25);
+  --destructive-foreground: oklch(0.98 0.002 0);
+  --border: oklch(0.95 0.01 280);
+  --input: oklch(0.96 0.01 280);
+  --ring: oklch(0.85 0.08 25);
+  
+  --sidebar: oklch(0.99 0.001 0);
+  --sidebar-foreground: oklch(0.25 0.02 65);
+  --sidebar-accent: oklch(0.88 0.05 25);
+  --sidebar-accent-foreground: oklch(0.25 0.02 65);
+  --sidebar-border: oklch(0.95 0.01 280);
+  --sidebar-ring: oklch(0.85 0.08 25);
 }
 
 .dark {
-  --primary: var(--color-blue-700);
-  --primary-foreground: var(--color-blue-50);
-  --sidebar-primary: var(--color-blue-500);
-  --sidebar-primary-foreground: var(--color-blue-50);
-  --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.85 0.005 65);
-  --card: oklch(0.21 0.006 285.885);
-  --card-foreground: oklch(0.85 0.005 65);
-  --popover: oklch(0.21 0.006 285.885);
-  --popover-foreground: oklch(0.85 0.005 65);
-  --secondary: oklch(0.24 0.006 286.033);
-  --secondary-foreground: oklch(0.7 0.005 65);
-  --muted: oklch(0.274 0.006 286.033);
-  --muted-foreground: oklch(0.705 0.015 286.067);
-  --accent: oklch(0.274 0.006 286.033);
-  --accent-foreground:  oklch(0.92 0.005 65);
-  --destructive: oklch(0.704 0.191 22.216);
-  --destructive-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.85 0.08 25);
+  --primary-foreground: oklch(0.98 0.002 0);
+  --sidebar-primary: oklch(0.85 0.08 25);
+  --sidebar-primary-foreground: oklch(0.98 0.002 0);
+  --background: oklch(0.15 0.01 65);
+  --foreground: oklch(0.92 0.01 65);
+  --card: oklch(0.22 0.01 280);
+  --card-foreground: oklch(0.92 0.01 65);
+  --popover: oklch(0.22 0.01 280);
+  --popover-foreground: oklch(0.92 0.01 65);
+  --secondary: oklch(0.25 0.02 25);
+  --secondary-foreground: oklch(0.88 0.02 65);
+  --muted: oklch(0.28 0.01 280);
+  --muted-foreground: oklch(0.70 0.02 280);
+  --accent: oklch(0.85 0.08 25);
+  --accent-foreground: oklch(0.98 0.002 0);
+  --destructive: oklch(0.70 0.18 25);
+  --destructive-foreground: oklch(0.98 0.002 0);
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
-  --ring: oklch(0.488 0.243 264.376);
-  --chart-1: var(--color-blue-300);
-  --chart-2: var(--color-blue-500);
-  --chart-3: var(--color-blue-600);
-  --chart-4: var(--color-blue-700);
-  --chart-5: var(--color-blue-800);
-  --sidebar: oklch(0.21 0.006 285.885);
-  --sidebar-foreground: oklch(0.85 0.005 65);
-  --sidebar-accent: oklch(0.274 0.006 286.033);
-  --sidebar-accent-foreground:  oklch(0.985 0 0);
+  --ring: oklch(0.85 0.08 25);
+  --chart-1: oklch(0.85 0.08 25);
+  --chart-2: oklch(0.82 0.1 280);
+  --chart-3: oklch(0.75 0.12 150);
+  --chart-4: oklch(0.70 0.08 25);
+  --chart-5: oklch(0.65 0.1 280);
+  --sidebar: oklch(0.22 0.01 280);
+  --sidebar-foreground: oklch(0.92 0.01 65);
+  --sidebar-accent: oklch(0.28 0.01 280);
+  --sidebar-accent-foreground: oklch(0.98 0.002 0);
   --sidebar-border: oklch(1 0 0 / 10%);
-  --sidebar-ring: oklch(0.488 0.243 264.376);
+  --sidebar-ring: oklch(0.85 0.08 25);
 }
 
 @layer base {
@@ -131,27 +139,38 @@
   input[type="radio"]:not(:disabled) {
     @apply cursor-pointer;
   }
+  
+  /* Premium Typography System */
+  h1 {
+    font-family: var(--font-display);
+    @apply text-5xl md:text-6xl font-bold tracking-tight leading-tight;
+  }
+  
+  h2 {
+    font-family: var(--font-display);
+    @apply text-4xl md:text-5xl font-bold tracking-tight leading-tight;
+  }
+  
+  h3 {
+    font-family: var(--font-display);
+    @apply text-2xl md:text-3xl font-semibold tracking-tight leading-snug;
+  }
+  
+  p {
+    @apply text-base md:text-lg leading-relaxed;
+  }
 }
 
 @layer components {
   /**
    * Custom container utility that centers content and adds responsive padding.
-   *
-   * This overrides Tailwind's default container behavior to:
-   * - Auto-center content (mx-auto)
-   * - Add responsive horizontal padding
-   * - Set max-width for large screens
-   *
-   * Usage: <div className="container">...</div>
-   *
-   * For custom widths, use max-w-* utilities directly:
-   * <div className="max-w-6xl mx-auto px-4">...</div>
+   * Soft Luxury Minimalism: Generous whitespace and breathing room
    */
   .container {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 1rem; /* 16px - mobile padding */
+    padding-left: 1rem;
     padding-right: 1rem;
   }
 
@@ -162,16 +181,65 @@
 
   @media (min-width: 640px) {
     .container {
-      padding-left: 1.5rem; /* 24px - tablet padding */
+      padding-left: 1.5rem;
       padding-right: 1.5rem;
     }
   }
 
   @media (min-width: 1024px) {
     .container {
-      padding-left: 2rem; /* 32px - desktop padding */
+      padding-left: 2rem;
       padding-right: 2rem;
-      max-width: 1280px; /* Standard content width */
+      max-width: 1280px;
     }
+  }
+  
+  /* Premium button with soft glow */
+  .btn-premium {
+    @apply px-8 py-4 rounded-full font-semibold transition-all duration-200;
+    @apply bg-accent text-accent-foreground;
+    @apply hover:shadow-lg hover:scale-105;
+    @apply active:scale-95;
+    box-shadow: 0 4px 20px rgba(217, 119, 142, 0.15);
+  }
+  
+  .btn-premium:hover {
+    box-shadow: 0 8px 30px rgba(217, 119, 142, 0.25);
+  }
+  
+  /* Glassmorphism card */
+  .card-glass {
+    @apply backdrop-blur-md bg-white/40 border border-white/60;
+    @apply rounded-2xl p-6 md:p-8;
+    @apply shadow-sm hover:shadow-md transition-all duration-300;
+  }
+  
+  /* Soft shadow for depth */
+  .shadow-soft {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  .shadow-soft-lg {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  }
+}
+
+/* Google Fonts - Playfair Display & Inter */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap');
+
+@layer base {
+  :root {
+    --font-display: "Playfair Display", serif;
+    --font-body: "Inter", sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-display);
+  }
+  
+  .font-body {
+    font-family: var(--font-body);
   }
 }
