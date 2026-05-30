@@ -65,7 +65,7 @@ export default function Home() {
           className="absolute inset-0 bg-cover bg-center"
           style={{
             backgroundImage:
-              "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663251665657/eQg5u4P987cKzDfMCQYeRd/hero-gradient-overlay-c2vFCYaXp3VnncoyykmBAx.webp')",
+              "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663251665657/eQg5u4P987cKzDfMCQYeRd/kricia-hero-mother-baby-UP3LGAbPGxptb5jfo9tkUX.webp')",
           }}
         />
 
@@ -162,13 +162,14 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Image placeholder */}
-            <div className="bg-gradient-to-br from-rose-100 to-purple-100 rounded-2xl h-96 flex items-center justify-center">
-              <div className="text-center text-slate-400">
-                <Heart className="w-12 h-12 mx-auto mb-2 opacity-50" />
-                <p className="text-sm">Foto de Kricia</p>
-              </div>
-            </div>
+            {/* Image */}
+            <div
+              className="rounded-2xl h-96 bg-cover bg-center shadow-lg"
+              style={{
+                backgroundImage:
+                  "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663251665657/eQg5u4P987cKzDfMCQYeRd/kricia-founder-portrait-oHNx4aCrjzddTDNzj6mg4o.webp')",
+              }}
+            />
           </div>
         </div>
       </section>
@@ -183,7 +184,7 @@ export default function Home() {
                 className="rounded-2xl h-96 bg-cover bg-center shadow-lg"
                 style={{
                   backgroundImage:
-                    "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663251665657/eQg5u4P987cKzDfMCQYeRd/pain-point-exhaustion-4VNrsGBU97a5DfmbpyPGzk.webp')",
+                    "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663251665657/eQg5u4P987cKzDfMCQYeRd/kricia-exhaustion-moment-QscGYuowwRhoNFPkvCcDhH.webp')",
                 }}
               />
             </div>
@@ -239,7 +240,7 @@ export default function Home() {
                 className="rounded-2xl h-96 bg-cover bg-center shadow-lg"
                 style={{
                   backgroundImage:
-                    "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663251665657/eQg5u4P987cKzDfMCQYeRd/method-calm-moment-iA2k8vWk8X9R2mGbGo2ZvG.webp')",
+                    "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663251665657/eQg5u4P987cKzDfMCQYeRd/kricia-rested-moment-doWv2j8yUyuBWTduGRCK2J.webp')",
                 }}
               />
             </div>
@@ -310,7 +311,7 @@ export default function Home() {
                 className="rounded-2xl h-96 bg-cover bg-center shadow-lg"
                 style={{
                   backgroundImage:
-                    "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663251665657/eQg5u4P987cKzDfMCQYeRd/future-pacing-rested-F88Yp46Mn7mjGhZLuzEJkX.webp')",
+                    "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663251665657/eQg5u4P987cKzDfMCQYeRd/kricia-rested-moment-doWv2j8yUyuBWTduGRCK2J.webp')",
                 }}
               />
             </div>
