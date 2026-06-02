@@ -95,10 +95,13 @@ export default function Home() {
 
           {/* CTA */}
           <Button
+            asChild
             size="lg"
             className="bg-gradient-to-r from-rose-400 to-pink-400 hover:from-rose-500 hover:to-pink-500 text-white rounded-full px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl transition-all"
           >
-            Quero começar →
+            <a href="https://wa.me/message/6W72YBMJWXKXK1" target="_blank" rel="noopener noreferrer">
+              Quero começar →
+            </a>
           </Button>
 
           {/* Countdown */}
@@ -544,7 +547,6 @@ export default function Home() {
           <Card className="p-8 bg-white border-rose-300 shadow-lg">
             <div className="text-center mb-8">
               <div className="text-5xl font-bold text-slate-900 mb-2">R$ 297</div>
-              <p className="text-slate-600">ou 3x de R$ 99</p>
             </div>
 
             <ul className="space-y-4 mb-8">
@@ -563,10 +565,13 @@ export default function Home() {
             </ul>
 
             <Button
+              asChild
               size="lg"
               className="w-full bg-gradient-to-r from-rose-400 to-pink-400 hover:from-rose-500 hover:to-pink-500 text-white rounded-full py-6 text-lg font-medium mb-4"
             >
-              Quero o acompanhamento completo →
+              <a href="https://wa.me/message/6W72YBMJWXKXK1" target="_blank" rel="noopener noreferrer">
+                Quero o acompanhamento completo →
+              </a>
             </Button>
 
             <p className="text-center text-sm text-slate-600">
@@ -588,10 +593,13 @@ export default function Home() {
           </p>
 
           <Button
+            asChild
             size="lg"
             className="bg-gradient-to-r from-rose-400 to-pink-400 hover:from-rose-500 hover:to-pink-500 text-white rounded-full px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl transition-all"
           >
-            Começar agora →
+            <a href="https://wa.me/message/6W72YBMJWXKXK1" target="_blank" rel="noopener noreferrer">
+              Começar agora →
+            </a>
           </Button>
         </div>
       </section>
