@@ -99,7 +99,7 @@ export default function Home() {
             size="lg"
             className="bg-gradient-to-r from-rose-400 to-pink-400 hover:from-rose-500 hover:to-pink-500 text-white rounded-full px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl transition-all"
           >
-            <a href="https://wa.me/message/6W72YBMJWXKXK1" target="_blank" rel="noopener noreferrer">
+            <a href="https://pay.hotmart.com/G104765645W?off=ho7iqbpt" target="_blank" rel="noopener noreferrer">
               Quero começar →
             </a>
           </Button>
@@ -546,7 +546,8 @@ export default function Home() {
 
           <Card className="p-8 bg-white border-rose-300 shadow-lg">
             <div className="text-center mb-8">
-              <div className="text-5xl font-bold text-slate-900 mb-2">R$ 297</div>
+              <div className="text-lg text-slate-700 mb-2">12 x de <span className="text-2xl font-bold text-slate-900">R$ 30,72</span> *</div>
+              <div className="text-sm text-slate-600 mb-3">Ou <span className="text-3xl font-bold text-slate-900">R$ 297,00</span> à vista</div>
             </div>
 
             <ul className="space-y-4 mb-8">
@@ -569,13 +570,13 @@ export default function Home() {
               size="lg"
               className="w-full bg-gradient-to-r from-rose-400 to-pink-400 hover:from-rose-500 hover:to-pink-500 text-white rounded-full py-6 text-lg font-medium mb-4"
             >
-              <a href="https://wa.me/message/6W72YBMJWXKXK1" target="_blank" rel="noopener noreferrer">
+              <a href="https://pay.hotmart.com/G104765645W?off=ho7iqbpt" target="_blank" rel="noopener noreferrer">
                 Quero o acompanhamento completo →
               </a>
             </Button>
 
             <p className="text-center text-sm text-slate-600">
-              Sem compromisso. Você pode cancelar a qualquer momento.
+              Garantia de 7 dias. Se não gostar, devolvemos seu dinheiro.
             </p>
           </Card>
         </div>
@@ -597,7 +598,7 @@ export default function Home() {
             size="lg"
             className="bg-gradient-to-r from-rose-400 to-pink-400 hover:from-rose-500 hover:to-pink-500 text-white rounded-full px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl transition-all"
           >
-            <a href="https://wa.me/message/6W72YBMJWXKXK1" target="_blank" rel="noopener noreferrer">
+            <a href="https://pay.hotmart.com/G104765645W?off=ho7iqbpt" target="_blank" rel="noopener noreferrer">
               Começar agora →
             </a>
           </Button>
